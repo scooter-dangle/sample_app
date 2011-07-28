@@ -7,7 +7,10 @@ gem 'rails', '3.0.9'
 
 gem 'sqlite3', '1.3.4'
 
-group :developtment do
+gem 'haml-rails', '0.3.4'
+gem 'compass', '0.11.5'
+
+group :development do
   gem 'rspec-rails', '2.6.1'
 end
 
