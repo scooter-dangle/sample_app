@@ -1,6 +1,8 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    RedCloth (4.2.7)
+    ZenTest (4.6.0)
     abstract (1.0.0)
     actionmailer (3.0.9)
       actionpack (= 3.0.9)
@@ -29,6 +31,9 @@ GEM
       activesupport (= 3.0.9)
     activesupport (3.0.9)
     arel (2.0.10)
+    autotest (4.4.6)
+      ZenTest (>= 4.4.1)
+    autotest-rails-pure (4.1.2)
     builder (2.1.2)
     chunky_png (1.2.0)
     compass (0.11.5)
@@ -105,6 +110,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  RedCloth (= 4.2.7)
+  autotest (= 4.4.6)
+  autotest-rails-pure (= 4.1.2)
   compass (= 0.11.5)
   haml-rails (= 0.3.4)
   rails (= 3.0.9)
