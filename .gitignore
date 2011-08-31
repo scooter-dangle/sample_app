@@ -6,3 +6,4 @@ doc/
 *.swp
 *~
 .project
+public/stylesheets/*.css
