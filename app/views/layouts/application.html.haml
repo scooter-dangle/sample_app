@@ -8,6 +8,10 @@
   .container
     = render 'layouts/header'
     %section.round
+      - flash.each do |key, value|
+        - class_name = "flash #{ key }"
+        %div{ :class => class_name }
+          = value
       = yield
     = render 'layouts/footer'
     = debug( params ) if Rails.env.development?

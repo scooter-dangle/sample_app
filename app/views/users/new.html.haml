@@ -1,2 +1,22 @@
-%h1 Users#new
-%p Find me in app/views/users/new.html.haml
+%h1 Sign up
+
+= form_for @user do |k|
+	= render 'shared/error_messages'
+	.field
+		= k.label :name
+		%br
+		= k.text_field :name
+	.field
+		= k.label :email
+		%br
+		= k.text_field :email
+	.field
+		= k.label :password
+		%br
+		= k.password_field :password
+	.field
+		= k.label :password_confirmation, "Confirmation"
+		%br
+		= k.password_field :password_confirmation
+	.actions
+		= k.submit "Sign up"
