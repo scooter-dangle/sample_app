@@ -1,0 +1,13 @@
+%h1 Sign up
+
+- properties = [ :name, :email, :password ]
+= form_for @user do |k|
+	= properties.each { |property| render 'fields', :k => k, :property => property }
+	.field
+		= k.label :password_confirmation, "Confirmation"
+		%br
+		= k.password_field :password_confirmation
+	.actions
+		= k.submit "Sign up"
+- end
+

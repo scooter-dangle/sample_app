@@ -1,0 +1,19 @@
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+PagesController	app/controllers/pages_controller.rb	/^class PagesController < ApplicationController$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+about	app/controllers/pages_controller.rb	/^  def about$/;"	f	class:PagesController
+authenticate	app/models/user.rb	/^  def User.authenticate email, submitted_password$/;"	F	class:User
+contact	app/controllers/pages_controller.rb	/^  def contact$/;"	f	class:PagesController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+encrypt	app/models/user.rb	/^    def encrypt string$/;"	f	class:User
+encrypt_password	app/models/user.rb	/^    def encrypt_password$/;"	f	class:User
+has_password?	app/models/user.rb	/^  def has_password? submitted_password$/;"	f	class:User
+help	app/controllers/pages_controller.rb	/^  def help$/;"	f	class:PagesController
+home	app/controllers/pages_controller.rb	/^  def home$/;"	f	class:PagesController
+logo	app/helpers/application_helper.rb	/^  def logo$/;"	f	class:ApplicationHelper
+make_salt	app/models/user.rb	/^    def make_salt$/;"	f	class:User
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+secure_hash	app/models/user.rb	/^    def secure_hash string$/;"	f	class:User
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+title	app/helpers/application_helper.rb	/^  def title$/;"	f	class:ApplicationHelper

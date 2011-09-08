@@ -1,0 +1,23 @@
+<h1>Sign up</h1>
+
+<%= form_for(@user) do |k| %>
+  <div class="field">
+    <%= k.label :name %><br />
+    <%= k.text_field :name %>
+  </div>
+  <div class="field">
+    <%= k.label :email %><br />
+    <%= k.text_field :email %>
+  </div>
+  <div class="field">
+    <%= k.label :password %><br />
+    <%= k.text_field :password %>
+  </div>
+  <div class="field">
+    <%= k.label :password_confirmation, "Confirmation" %><br />
+    <%= k.text_field :password_confirmation %>
+  </div>
+  <div class="actions">
+    <%= k.submit "Sign up" %>
+  </div>
+<% end %>
